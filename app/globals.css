@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+.btn{
+  @apply bg-[#ED2E66] min-w-[250px] min-h-[58px] left-[1px] items-center justify-center
+    rounded-lg  text-white text-[20px] font-semibold ;
+    font-family: 'Poppins', sans-serif;
+}
+@media (min-width: 1023px) and (max-width: 1123px) {
+  .bg-custom-gradient {
+    background-color:custom-gradient/* Ensure the same gradient is applied */
+  }
+}
+.btn-1{
+  @apply text-[#ED2E66] min-w-[250px] min-h-[58px] left-[1px] items-center justify-center
+    rounded-lg  bg-white text-[20px] font-semibold ;
+    font-family: 'Poppins', sans-serif;
+}
+
